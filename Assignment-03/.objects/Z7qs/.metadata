@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome TANGEDCO Online Payment",
+  "Type": "App",
+  "Id": "Z7qsxDN6Ykud-KQwxm-dbg",
+  "Reference": "ABgE_AXfD0y4E9lc7p-3Mg/Z7qsxDN6Ykud-KQwxm-dbg",
+  "Created": "2024-08-26T06:39:09.7561107Z",
+  "Updated": "2024-08-26T06:39:09.7561107Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

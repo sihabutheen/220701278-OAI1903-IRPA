@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Billing cycle '",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "yEn43xnPPUO6P2bI4cRBIA",
+  "Reference": "ABgE_AXfD0y4E9lc7p-3Mg/yEn43xnPPUO6P2bI4cRBIA",
+  "ParentRef": "ABgE_AXfD0y4E9lc7p-3Mg/uB7hBVPqxkK8HQ5iD7ZpAw",
+  "Created": "2024-08-26T06:39:10.0266102Z",
+  "Updated": "2024-08-26T06:39:10.0266102Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome TANGEDCO Online Payment",
+  "Type": "Screen",
+  "Id": "uB7hBVPqxkK8HQ5iD7ZpAw",
+  "Reference": "ABgE_AXfD0y4E9lc7p-3Mg/uB7hBVPqxkK8HQ5iD7ZpAw",
+  "ParentRef": "ABgE_AXfD0y4E9lc7p-3Mg/PrLCNbmq5ke73XcpA_83hg",
+  "Created": "2024-08-26T06:39:09.8025499Z",
+  "Updated": "2024-08-26T06:39:09.8025499Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

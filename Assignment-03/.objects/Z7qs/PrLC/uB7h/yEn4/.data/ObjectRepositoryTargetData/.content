@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iJiEMq5OqUS3IzUFInE7UA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.tnebnet.org/awp/tariffMaster?execution=e2s1" CVScreenId="f732e34f-bc52-4125-b72d-f4396ccc5ea2" CvElementArea="929, 628, 99, 24" CvType="InputBox" DesignTimeRectangle="932, 631, 96, 20" DesignTimeScaleFactor="1.25" ElementType="DropDown" FullSelectorArgument="&lt;webctrl tableRow='3' tag='TABLE' /&gt;&lt;webctrl id='calculator:mode' tableRow='1' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='calculator:mode' type='' tag='SELECT' class='' aaname='' /&gt;" Guid="12969242-6fe9-4454-bd12-be169eda368a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TANGEDCO Online Payment' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f732e34f-bc52-4125-b72d-f4396ccc5ea2" CvTextArea="591, 632, 88, 17" CvTextArgument="Billing cycle *" CvType="Text" DesignTimeRectangle="593, 633, 87, 16" ElementType="Text" FullSelectorArgument="&lt;webctrl id='calculator:calfiled' tableRow='4' tag='TABLE' /&gt;&lt;webctrl tableRow='3' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='calculator:calfiled' tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='' aaname='Billing cycle *' check:innerText='Billing cycle *' /&gt;" Guid="c1dca40b-e265-40ed-a772-110dcc9c9886" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomLeft" X="37" Y="-8" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="abf03f4a94ab43e0be92af74058ca471.png" xmlns="">0n-04_CCgRE-iLcLFm6lgDg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

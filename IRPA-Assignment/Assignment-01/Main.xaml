@@ -1,0 +1,224 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="695,2105" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="546,2040" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="domain_name" />
+      <Variable x:TypeArguments="x:String" Name="Registered_On" />
+      <Variable x:TypeArguments="x:String" Name="Registrar" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:Comment sap:VirtualizedContainerService.HintSize="484,75" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// 220701278 SIHABUTHEEN HAQ 3rd year CSE-E" />
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="484,239" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter Domain Name or IP Address :" Title="Whois bot">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[domain_name]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Free Whois Lookup - Whois IP Search &amp; Whois Domain Lookup | Whois.com" sap:VirtualizedContainerService.HintSize="484,1535" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="9b9928b7-aff0-459e-b06a-d6c522d72f33" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1318" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="Expires_On" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,254" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="9b9928b7-aff0-459e-b06a-d6c522d72f33" Text="[domain_name]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.whois.com/whois/" CVScreenId="4fac081d-8f96-4df0-958d-fb530f60a386" CvTextArea="360, 670, 398, 23" CvTextArgument="Enter Domain Name or IP Address" CvType="Text" DesignTimeRectangle="339, 643, 1053, 80" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;input' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='text' tag='INPUT' class='form-control' placeholder='Enter Domain Name or IP Address' aaname='' /&gt;" Guid="e20c214d-042e-4708-8111-57d69bb9a224" InformativeScreenshot="544b4510c317dba960a250950e9a82c5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Free Whois Lookup - Whois IP Search &amp;amp; Whois Domain Lookup | Whois.com' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="4fac081d-8f96-4df0-958d-fb530f60a386" CvElementArea="1391, 640, 189, 84" CvTextArea="1452, 670, 95, 23" CvTextArgument="SEARCH" CvType="Button" DesignTimeRectangle="1391, 643, 188, 80" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='SEARCH' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='SEARCH' tag='BUTTON' type='submit' class='btn btn-vendor' check:innerText='SEARCH' /&gt;" Guid="9b5c41d1-d897-42e9-b3c4-bcc572c61667" SearchSteps="Selector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SEARCH'" sap:VirtualizedContainerService.HintSize="388,193" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9b9928b7-aff0-459e-b06a-d6c522d72f33" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.whois.com/whois/" CVScreenId="4fac081d-8f96-4df0-958d-fb530f60a386" CvElementArea="1391, 640, 189, 84" CvTextArea="1452, 670, 95, 23" CvTextArgument="SEARCH" CvType="Button" DesignTimeRectangle="1391, 643, 188, 80" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='SEARCH' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='SEARCH' tag='BUTTON' type='submit' class='btn btn-vendor' check:innerText='SEARCH' /&gt;" Guid="bf82f549-8395-49d4-bc00-e6e772366938" InformativeScreenshot="b39ecd6994c76ae560dc85f0a160b7d2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Free Whois Lookup - Whois IP Search &amp;amp; Whois Domain Lookup | Whois.com' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="4fac081d-8f96-4df0-958d-fb530f60a386" CvElementArea="1391, 640, 189, 84" CvTextArea="1452, 670, 95, 23" CvTextArgument="SEARCH" CvType="Button" DesignTimeRectangle="1447, 665, 101, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='SEARCH' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='SEARCH' tag='SPAN' type='' class='' check:innerText='SEARCH' /&gt;" Guid="6b2883c6-8a2b-4741-a5c6-6a9dd6adda39" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset X="2" Y="-5" />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Registrar'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="9b9928b7-aff0-459e-b06a-d6c522d72f33" TextString="[Registrar]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.whois.com/whois/google.co.in" CVScreenId="f07aafc9-f4b5-4b47-a99e-b60cf28ad0e6" CvTextArea="465, 585, 151, 18" CvType="AnyWordGroup" DesignTimeRectangle="466, 581, 760, 28" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='MarkMonitor Inc.' class='df-value' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='df-value' tag='DIV' type='' /&gt;" Guid="5c47d532-99ba-456b-a971-1b9a622e9bfa" ImageBase64="" InformativeScreenshot="38572b8e09c826264d7478f17f5349aa.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Whois google.co.in' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="f07aafc9-f4b5-4b47-a99e-b60cf28ad0e6" CvTextArea="290, 585, 83, 22" CvTextArgument="Registrar:" CvType="Text" DesignTimeRectangle="291, 581, 175, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Registrar:' class='df-label' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Registrar:' class='df-label' tag='DIV' type='' check:innerText='Registrar:' /&gt;" Guid="f8a79069-762d-439f-aa9d-56ac6cf6d26d" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'Registered On'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="9b9928b7-aff0-459e-b06a-d6c522d72f33" TextString="[Registered_On]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.whois.com/whois/google.co.in" CVScreenId="3e23fa7e-b5bc-498e-845a-b2ccc3940962" CvTextArea="464, 634, 100, 18" CvType="AnyWordGroup" DesignTimeRectangle="466, 630, 760, 28" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='2003-06-23' class='df-value' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='df-value' tag='DIV' type='' /&gt;" Guid="b8a39bca-12fe-47a6-bfc8-1a33445f5d65" ImageBase64="" InformativeScreenshot="a992f599f1449d175c73fe1c19cf1ce6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Whois google.co.in' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="3e23fa7e-b5bc-498e-845a-b2ccc3940962" CvTextArea="290, 634, 128, 22" CvTextArgument="Registered On:" CvType="Text" DesignTimeRectangle="291, 630, 175, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Registered On:' class='df-label' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Registered On:' class='df-label' tag='DIV' type='' check:innerText='Registered On:' /&gt;" Guid="658e3b8e-20e1-4917-86c9-b6051df880a9" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'Expires On'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="9b9928b7-aff0-459e-b06a-d6c522d72f33" TextString="[Expires_On]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.whois.com/whois/google.co.in" CVScreenId="dfb58d08-360c-49a7-8132-752f45733d45" CvTextArea="464, 682, 100, 18" CvType="AnyWordGroup" DesignTimeRectangle="466, 679, 760, 28" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='2025-06-23' class='df-value' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='df-value' tag='DIV' type='' /&gt;" Guid="9fbb3ccd-937c-4bca-ba16-8476aecb93bc" ImageBase64="" InformativeScreenshot="c038c7e98c87d57da1fd17af16e702ef.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Whois google.co.in' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="dfb58d08-360c-49a7-8132-752f45733d45" CvTextArea="290, 682, 99, 22" CvTextArgument="Expires On:" CvType="Text" DesignTimeRectangle="291, 679, 175, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Expires On:' class='df-label' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Expires On:' class='df-label' tag='DIV' type='' check:innerText='Expires On:' /&gt;" Guid="4fd56a23-0a9d-4e53-b64c-bb19df824330" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,85" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Registrar : &quot; + Registrar + Environment.NewLine + &#xA;&quot;Registered On: &quot; + Registered_On + Environment.NewLine + &#xA;&quot;Expires On: &quot; + Expires_On]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="9095477d2cb58cf6a5cb1c7911ad8b4d.jpg" Selector="&lt;html app='chrome.exe' title='Free Whois Lookup - Whois IP Search &amp;amp; Whois Domain Lookup | Whois.com' /&gt;" Title="Free Whois Lookup - Whois IP Search &amp; Whois Domain Lookup | Whois.com" Url="https://www.whois.com/whois/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
